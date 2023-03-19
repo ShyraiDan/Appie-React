@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Appie-React/static/css/main.7e597b2f.css",
+    "main.js": "/Appie-React/static/js/main.f6a6c827.js",
+    "static/media/download-thumb-2.png": "/Appie-React/static/media/download-thumb-2.e89afecf997d68972666.png",
+    "static/media/showcase-4.png": "/Appie-React/static/media/showcase-4.a4ee9c273e836a2a0346.png",
+    "static/media/download-thumb-1.png": "/Appie-React/static/media/download-thumb-1.760e260e77a3667ca560.png",
+    "static/media/showcase-2.png": "/Appie-React/static/media/showcase-2.8550e7d676a5cea5b3d8.png",
+    "static/media/fun-fact-thumb.png": "/Appie-React/static/media/fun-fact-thumb.a1977350f53a77daa0a4.png",
+    "static/media/about-thumb-2.png": "/Appie-React/static/media/about-thumb-2.e5b5e3bf823f606326cf.png",
+    "static/media/showcase-3.png": "/Appie-React/static/media/showcase-3.4d0b28606e1463d82d9e.png",
+    "static/media/about-thumb-3.png": "/Appie-React/static/media/about-thumb-3.f905661ee366ab9c36c8.png",
+    "static/media/blog-7.jpg": "/Appie-React/static/media/blog-7.306004ff669b4caf0467.jpg",
+    "static/media/icomoon.svg?cxc9zx": "/Appie-React/static/media/icomoon.13713c289228b294b059.svg",
+    "static/media/hero-bg.jpg": "/Appie-React/static/media/hero-bg.029db4df1ad4f3c374cb.jpg",
+    "static/media/showcase-1.png": "/Appie-React/static/media/showcase-1.c3534790e01eb306c7ed.png",
+    "static/media/icomoon.eot?cxc9zx": "/Appie-React/static/media/icomoon.11ca1283e899a63df7bb.eot",
+    "static/media/icomoon.woff?cxc9zx": "/Appie-React/static/media/icomoon.167e343918b900dde4bf.woff",
+    "static/media/icomoon.ttf?cxc9zx": "/Appie-React/static/media/icomoon.04735e01cb2ca6fae463.ttf",
+    "index.html": "/Appie-React/index.html",
+    "main.7e597b2f.css.map": "/Appie-React/static/css/main.7e597b2f.css.map",
+    "main.f6a6c827.js.map": "/Appie-React/static/js/main.f6a6c827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e597b2f.css",
+    "static/js/main.f6a6c827.js"
+  ]
+}
