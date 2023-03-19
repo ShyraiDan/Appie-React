@@ -1,0 +1,127 @@
+.part3 {
+	padding: 0 15px;
+}
+.container2 {
+	background: url(../../../i/fun-fact-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+	padding: 30px;
+}
+.container2__h3 {
+	color: #fff;
+	font-size: 1.86rem;
+	line-height: 38px;
+	padding-bottom: 15px;
+}
+.container2__p {
+	color: #fff;
+	opacity: 0.8;
+	font-size: 1.06rem;
+	font-weight: 400;
+	line-height: 24px;
+}
+.container2__img {
+	display: none;
+	width: 100%;
+	max-width: 100%;
+}
+
+/* .achivements-item {
+	margin-top: 36px;
+	text-align: center;
+}
+.achivements-item__h4 {
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 900;
+	line-height: 1.2;
+}
+.achivements-item__p {
+	color: black;
+	font-size: 0.93rem;
+	color: #a4a4b9;
+	line-height: 1.5;
+} */
+
+.white-btn {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	height: 72px;
+}
+
+.white-btn__link {
+	background: #fff;
+	display: inline-block;
+	position: absolute;
+	content: "";
+	left: calc(50% - 36px);
+	top: 0;
+	padding: 26px 28px;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+	.container2 {
+		margin: 0 auto;
+		max-width: 450px;
+	}
+	.container2__h3 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+	.white-btn__link {
+		left: 0;
+	}
+	.achivements {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	/* .achivements-item {
+		text-align: left;
+	} */
+}
+@media screen and (min-width: 768px) {
+	.container2 {
+		max-width: 550px;
+		padding: 90px 70px;
+	}
+	.container2__h3 {
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.container2__img {
+		display: initial;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container2 {
+		max-width: 930px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+	}
+	.container2__img-container {
+		margin-top: -70px;
+		margin-left: 35px;
+	}
+	.container2__img {
+		width: 380px;
+	}
+	.white-btn {
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container2 {
+		max-width: 1030px;
+	}
+}

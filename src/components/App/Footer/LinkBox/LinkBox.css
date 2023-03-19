@@ -1,0 +1,7 @@
+@media screen and (min-width: 576px) {
+	.link-box {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,93 @@
+.container-footer__left {
+	margin-top: 30px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.container-footer__link {
+	transition: all 0.4s ease-out 0s;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	color: #0e1133;
+	margin-top: 15px;
+	text-decoration: none;
+	text-align: center;
+}
+.container-footer__link_mtzero {
+	margin-top: 0;
+}
+.container-footer__p {
+	padding-top: 25px;
+	font-size: 1.06rem;
+	font-weight: 400;
+	line-height: 24px;
+	color: #505056;
+	text-align: center;
+}
+.social-item {
+	transition: all linear 0.7s;
+	background: #ffffff;
+	height: 33px;
+	width: 33px;
+	border-radius: 6px;
+	line-height: 36px;
+	margin-right: 5px;
+	display: inline-block;
+	text-align: center;
+}
+.social-item__fb {
+	text-decoration: none;
+}
+.social-item__tw {
+	text-decoration: none;
+}
+.social-item__inst {
+	text-decoration: none;
+}
+.social-item__in {
+	text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+	.container-footer__left-inner {
+		padding-right: 70px;
+		padding-left: 0;
+	}
+	.container-footer__p {
+		text-align: left;
+	}
+	.social {
+		justify-content: left;
+	}
+	.social-list {
+		display: block;
+	}
+}
+@media screen and (min-width: 992px) {
+	.container-footer__left-inner {
+		padding: 0;
+	}
+	.container-footer__link:hover {
+		color: #ff6b58;
+		transition: all 0.4s ease-out 0s;
+	}
+	.social-item:hover {
+		background: #ff6b58;
+		transition: all linear 0.3s;
+	}
+	.social-item:hover .icon-facebook::before {
+		color: #fff;
+		transition: all linear 0.7s;
+	}
+	.social-item:hover .icon-twitter::before {
+		color: #fff;
+		transition: all linear 0.7s;
+	}
+	.social-item:hover .icon-instagram::before {
+		color: #fff;
+		transition: all linear 0.7s;
+	}
+	.social-item:hover .icon-linkedin2::before {
+		color: #fff;
+		transition: all linear 0.7s;
+	}
+}

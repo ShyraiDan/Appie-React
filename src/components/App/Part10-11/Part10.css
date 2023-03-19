@@ -1,0 +1,127 @@
+.part10 {
+	margin-top: 30px;
+	border-radius: 20px;
+	background: #ebf2fc;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.container8__h3 {
+	font-size: 2.26rem;
+	font-weight: 700;
+	margin-bottom: 8px;
+	text-align: left;
+}
+.container8__p {
+	font-size: 1.06rem;
+	font-weight: 400;
+	line-height: 24px;
+	color: #505056;
+	text-align: left;
+}
+.container8__link {
+	transition: all linear 0.5s;
+	color: #0e1133;
+	background: #ffffff;
+	margin-top: 33px;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 500;
+	text-align: center;
+	padding: 0 30px;
+	font-size: 15px;
+	line-height: 45px;
+	border-radius: 6px;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+}
+.container8__link_red {
+	transition: all 0.5s ease-out 0s;
+	color: #ffffff;
+	background-color: #ff6b58;
+}
+
+.container8__img {
+	vertical-align: middle;
+	border-style: none;
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.container8-img {
+	text-align: center;
+}
+.container8-inner {
+	padding: 20px;
+}
+@media screen and (min-width: 576px) {
+	.part10 {
+		margin: 0 auto;
+		max-width: 510px;
+	}
+	.container8 {
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+	.container8_mb {
+		margin-bottom: 0;
+	}
+	.container8__img {
+		border-radius: 0;
+	}
+
+	.container8-inner {
+		padding: 50px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.part10 {
+		max-width: 690px;
+	}
+	.container8-img_left {
+		text-align: right;
+	}
+}
+@media screen and (min-width: 992px) {
+	.part10 {
+		width: 430px;
+	}
+	.container8-inner {
+		margin-top: -30px;
+	}
+	.container8 {
+		display: block;
+	}
+	.container8__img {
+		height: 285px;
+	}
+	.container8-img {
+		margin-bottom: -40px;
+	}
+	.container8__link:hover {
+		background: #ff6b58;
+		border-color: #ff6b58;
+		color: #fff;
+		transition: all 0.5s ease-out 0s;
+	}
+
+	.container8__link_red:hover {
+		background: #fff;
+		color: #0e1133;
+		border-color: #fff;
+		transition: all 0.5s ease-out 0s;
+	}
+	.container8__link_red:hover .icon-appleinc::before {
+		color: #0e1133;
+		transition: all 0.5s ease-out 0s;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.part10 {
+		display: block;
+		width: 550px;
+	}
+	.container8 {
+		margin-right: 20px;
+		margin-top: 30px;
+	}
+}

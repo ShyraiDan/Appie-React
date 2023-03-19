@@ -1,0 +1,45 @@
+.container11 {
+	padding-top: 90px;
+	background-color: #eef1f6;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 25px;
+}
+.container11_white {
+	background-color: #ffffff;
+	padding-bottom: 0;
+}
+.container11__h3 {
+	font-size: 1.73rem;
+	line-height: 36px;
+	text-align: center;
+}
+.container11__p {
+	font-size: #ffffff;
+	line-height: 28px;
+	margin-top: 11px;
+	margin-bottom: 40px;
+	font-weight: 400;
+	color: #505056;
+	text-align: center;
+}
+@media screen and (min-width: 576px) {
+	.container11 {
+		margin: 0 auto;
+		max-width: 510px;
+	}
+	.container11__h3 {
+		font-size: 36px;
+		line-height: 46px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.container11 {
+		max-width: 690px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.container11 {
+		max-width: 1200px;
+	}
+}

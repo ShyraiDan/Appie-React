@@ -1,0 +1,21 @@
+.achivements-item {
+	margin-top: 36px;
+	text-align: center;
+}
+.achivements-item__h4 {
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 900;
+	line-height: 1.2;
+}
+.achivements-item__p {
+	color: black;
+	font-size: 0.93rem;
+	color: #a4a4b9;
+	line-height: 1.5;
+}
+@media screen and (min-width: 576px) {
+	.achivements-item {
+		text-align: left;
+	}
+}
